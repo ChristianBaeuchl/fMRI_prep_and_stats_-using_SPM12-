@@ -14,8 +14,8 @@
 clear,close, clc
 
 %% Define paths and load data
-datapath = 'P:\211\projektmitarbeiter_intern\Daten\06_MRI_analyses\03_Scripts\fMRI_task_code\';
-outpath  = 'P:\211\projektmitarbeiter_intern\Daten\06_MRI_analyses\03_Scripts\StimulusOnsetFiles\';
+datapath = 'path to the code that preprocessed your taks';
+outpath  = 'path to where your stimulus onset files should end up';
 
 CDM_BL  = load([datapath 'CDM_Onsets_BL.mat']);
 CDM_FU3 = load([datapath 'CDM_Onsets_FU3.mat']);
