@@ -24,9 +24,7 @@ speed up the procedure.
 
 `4. DARTEL_create_template.m    `  
 `   DARTEL_create_template_job.m`  
-The DARTEL algorithm normalizes functional images to MNI space. This procedure takes 2 steps. Here a group template  
-of all participants (or participant groups with potentially different anatomy - young and old participants for example)  
-is being created, alongside participant-specific **flow field images**. 
+The DARTEL algorithm normalizes functional images to MNI space. This procedure takes 2 steps. Here a group template of all participants (or participant groups with potentially different anatomy - young and old participants for example) is being created, alongside participant-specific **flow field images**. 
 
 `5. DARTEL_normalize2mni.m    `  
 `   DARTEL_normalize2mni_job.m`  
